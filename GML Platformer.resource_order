@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_invis_wall","order":1,"path":"objects/obj_invis_wall/obj_invis_wall.yy",},
+    {"name":"obj_portal","order":3,"path":"objects/obj_portal/obj_portal.yy",},
+    {"name":"rm_night","order":2,"path":"rooms/rm_night/rm_night.yy",},
+    {"name":"rm_sunset","order":1,"path":"rooms/rm_sunset/rm_sunset.yy",},
+    {"name":"spr_background_long","order":5,"path":"sprites/spr_background_long/spr_background_long.yy",},
+    {"name":"spr_clouds","order":2,"path":"sprites/spr_clouds/spr_clouds.yy",},
+    {"name":"spr_grain","order":1,"path":"sprites/spr_grain/spr_grain.yy",},
+    {"name":"spr_invis_wall_smol","order":1,"path":"sprites/spr_invis_wall_smol/spr_invis_wall_smol.yy",},
+    {"name":"spr_player_jump","order":1,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"spr_protal","order":4,"path":"sprites/spr_protal/spr_protal.yy",},
+    {"name":"spr_slime_idel","order":4,"path":"sprites/spr_slime_idel/spr_slime_idel.yy",},
+    {"name":"spr_slime_jump","order":3,"path":"sprites/spr_slime_jump/spr_slime_jump.yy",},
+    {"name":"spr_slime_jump1","order":5,"path":"sprites/spr_slime_jump1/spr_slime_jump1.yy",},
+    {"name":"spr_slimeeyes","order":1,"path":"sprites/spr_slimeeyes/spr_slimeeyes.yy",},
+    {"name":"spr_slimewalk","order":2,"path":"sprites/spr_slimewalk/spr_slimewalk.yy",},
+    {"name":"spr_tileset","order":2,"path":"sprites/spr_tileset/spr_tileset.yy",},
+    {"name":"spr_ts_custom","order":3,"path":"sprites/spr_ts_custom/spr_ts_custom.yy",},
+  ],
+}
