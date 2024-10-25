@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"GML Platformer",
+  "%Name":"Drifter's Den",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -33,7 +33,7 @@
   "MetaData":{
     "IDEVersion":"2024.8.1.171",
   },
-  "name":"GML Platformer",
+  "name":"Drifter's Den",
   "resources":[
     {"id":{"name":"obj_drifter","path":"objects/obj_drifter/obj_drifter.yy",},},
     {"id":{"name":"obj_invis_wall","path":"objects/obj_invis_wall/obj_invis_wall.yy",},},

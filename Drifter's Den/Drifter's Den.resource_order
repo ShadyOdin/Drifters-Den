@@ -1,0 +1,8 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Gunlich","order":1,"path":"sprites/Gunlich/Gunlich.yy",},
+    {"name":"obj_wall","order":2,"path":"sprites/obj_wall/obj_wall.yy",},
+    {"name":"spr_slime_RBG","order":1,"path":"sprites/spr_slime_RBG/spr_slime_RBG.yy",},
+  ],
+}
