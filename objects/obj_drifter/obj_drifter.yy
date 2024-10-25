@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_invis_wall",
-  "eventList":[],
+  "%Name":"obj_drifter",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_invis_wall",
+  "name":"obj_drifter",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"obj_wall",
-    "path":"sprites/obj_wall/obj_wall.yy",
+    "name":"Gunlich",
+    "path":"sprites/Gunlich/Gunlich.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Gunlich",
+    "path":"sprites/Gunlich/Gunlich.yy",
+  },
   "visible":true,
 }
