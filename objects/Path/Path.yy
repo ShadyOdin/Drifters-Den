@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_invis_wall",
+  "%Name":"Path",
   "eventList":[],
   "managed":true,
-  "name":"obj_invis_wall",
+  "name":"Path",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_invis_water",
-    "path":"objects/obj_invis_water/obj_invis_water.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barrier",
-    "path":"sprites/spr_barrier/spr_barrier.yy",
+    "name":"Ground_2",
+    "path":"sprites/Ground_2/Ground_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

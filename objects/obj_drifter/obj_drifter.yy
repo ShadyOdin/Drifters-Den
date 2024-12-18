@@ -34,9 +34,6 @@
     "name":"Gunlich",
     "path":"sprites/Gunlich/Gunlich.yy",
   },
-  "spriteMaskId":{
-    "name":"Gunlich",
-    "path":"sprites/Gunlich/Gunlich.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

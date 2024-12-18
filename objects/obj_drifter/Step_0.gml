@@ -1,29 +1,38 @@
-/// @desc Core Player Logic
-rightkey = keyboard_check(vk_right);
-leftkey = keyboard_check(vk_left);
-upkey = keyboard_check(vk_up);
-downkey = keyboard_check(vk_down);
+/// @description Deez Nuts
 
-//Get X Y Sped
-
-xspeed = (rightkey - leftkey) * movespeed;
-yspeed = (downkey- upkey) * movespeed;
-
-//move Drifer
-x += xspeed
-y += yspeed
+// get input
+upKey = keyboard_check(vk_up);
+leftKey = keyboard_check(vk_left);
+downKey = keyboard_check(vk_down);
+rightKey = keyboard_check(vk_right);
 
 
-//Horizantal Collision
-if (place_meeting(x + xspeed, y, obj_invis_wall))
-{
-	xspeed = 0;
-}
-
-//Vertical Collision
-if (place_meeting(x, y + yspeed, obj_invis_wall))
-{
-	yspeed = 0;
-}
-
-
+// player movement
+	// get direction
+	var _horizKey = rightKey - leftKey;
+	var _vertKey = downKey - upKey;
+	moveDir = point_direction(0, 0, _horizKey, _vertKey);
+	
+// get the x and y speeds
+	var _spd = 0;
+	var _inputlevel = point_distance(0, 0, _horizKey, _vertKey);
+	_inputlevel = clamp(_inputlevel, 0, 4)
+	_spd =  moveSpd * _inputlevel;
+	
+	xSpd = lengthdir_x(_spd, moveDir);
+	ySpd = lengthdir_y(_spd, moveDir);
+	
+	//bonk
+	if place_meeting( x + xSpd, y, obj_invis_water)
+	{
+		xSpd = 0;
+	}
+	
+	if place_meeting( x, y + ySpd, obj_invis_water)
+	{
+		ySpd = 0;
+	}
+	
+	// move player
+	x += xSpd
+	y += ySpd
