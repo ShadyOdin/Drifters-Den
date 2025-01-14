@@ -1,5 +1,5 @@
-/// @description Movment Variables
-// Movment Variables
+/// @description Movement Variables
+// Movement  Variables
 moveDir = 0;
 moveSpd = 5;
 

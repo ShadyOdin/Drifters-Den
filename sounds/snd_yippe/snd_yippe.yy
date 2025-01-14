@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"snd_jump",
+  "%Name":"snd_yippe",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
-  "compression":0,
+  "bitRate":512,
+  "compression":2,
   "conversionMode":0,
   "duration":1.880812,
-  "name":"snd_jump",
+  "name":"snd_yippe",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
-  "soundFile":"snd_jump.mp3",
+  "sampleRate":48000,
+  "soundFile":"snd_yippe.mp3",
   "type":0,
   "volume":1.0,
 }

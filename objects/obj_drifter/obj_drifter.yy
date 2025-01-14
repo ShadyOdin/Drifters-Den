@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Gunlich",
-    "path":"sprites/Gunlich/Gunlich.yy",
+    "name":"spr_drifter",
+    "path":"sprites/spr_drifter/spr_drifter.yy",
   },
   "spriteMaskId":null,
   "visible":true,
