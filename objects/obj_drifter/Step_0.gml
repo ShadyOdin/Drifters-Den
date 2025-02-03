@@ -1,13 +1,14 @@
 /// @description Deez Nuts
 
 // get input
-upKey = keyboard_check(vk_up);
-leftKey = keyboard_check(vk_left);
-downKey = keyboard_check(vk_down);
-rightKey = keyboard_check(vk_right);
-
+upKey = keyboard_check( ord("W") );
+leftKey = keyboard_check( ord("A") );
+downKey = keyboard_check( ord("S") );
+rightKey = keyboard_check( ord("D") );
+pewKey = mouse_check_button(mb_left)
 
 // player movement
+#region
 	// get direction
 	var _horizKey = rightKey - leftKey;
 	var _vertKey = downKey - upKey;
@@ -36,3 +37,28 @@ rightKey = keyboard_check(vk_right);
 	// move player
 	x += xSpd
 	y += ySpd
+#endregion	
+	
+//player aiming
+#region
+	centerY = y + centerYOffset;
+	//aim
+		aimDir = point_direction( x, centerY, mouse_x, mouse_y);
+#endregion	
+
+
+//pew pew
+if pewKey
+{
+	//create bullet
+	var _xOffset = lengthdir_x( weaponLength + weaponOffsetDist, aimDir)
+	var _yOffset = lengthdir_y( weaponLength + weaponOffsetDist, aimDir)
+	var _bulletInst = instance_create_depth( x, centerY, depth-100, obj_projectile);
+
+	// change bullet direction
+	with(_bulletInst)
+	{
+		dir = other.aimDir;
+	}
+
+}
